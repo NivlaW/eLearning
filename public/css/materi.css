@@ -1,0 +1,606 @@
+a {
+    text-decoration: none !important;
+}
+body {
+    font-family: "Poppins", sans-serif !important;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 880px;
+    background-image: url(../image/ats.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: top left;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(187, 187, 187);
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(175, 175, 175);
+}
+.ts {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container-fluid {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.ats {
+    height: 130px;
+    color: white;
+}
+.stb {
+    width: 78px;
+    height: 80px;
+    margin-left: 28px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.col-5 {
+    display: inline-flex;
+}
+.tlss {
+    margin-top: 40px;
+}
+.tlss h2 {
+    color: black;
+    font-weight: 700;
+    line-height: 0.7;
+}
+.tlss p {
+    color: black;
+    font-size: 2rem !important;
+}
+a:hover {
+    cursor: pointer;
+}
+.bttn {
+    text-decoration: none !important;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    color: white !important;
+    float: left;
+    border-radius: 10px;
+    padding: 8px 30px;
+    background: rgb(0, 135, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.bttn2 {
+    text-decoration: none !important;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 48px;
+    right: 150px;
+    color: black;
+    float: right;
+    width: 150px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.bttn2:hover {
+    color: rgb(0, 135, 255);
+}
+.bttn3 {
+    text-decoration: none !important;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 48px;
+    right: 310px;
+    color: black;
+    float: right;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.bttn3:hover {
+    color: rgb(0, 135, 255);
+}
+.breadcrumb a {
+    text-decoration: none !important;
+}
+.keySearch {
+    outline: none;
+    color: black;
+    background-image: url(../image/search.svg);
+    background-position: 15px 14.5px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+.card-content-list {
+    height: auto;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+}
+.products-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.products-list .item {
+    background: #fff;
+    padding: 10px 0;
+}
+
+.product-list-in-card .item {
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.product-list-in-card > .item {
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.products-list > .item {
+    border-radius: 0.25rem;
+    background: #fff;
+    padding: 10px 0;
+}
+.bg-blue-adinusa {
+    background-color: #4d94ff !important;
+}
+.text-white {
+    color: #fff;
+}
+.text-white {
+    color: #fff !important;
+}
+.p-3 {
+    padding: 1rem !important;
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.btn.active,
+.btn:active {
+    background: none;
+    background-image: none;
+    outline: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.offset-2 {
+    margin-left: 8%;
+}
+.card {
+    color: black;
+    border: none !important;
+}
+.card-header {
+    display: flex;
+    background-color: transparent;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.125);
+    position: relative;
+    padding: 0.75rem 1.25rem;
+}
+.card-header h1 {
+    font-weight: 900;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 10px 15px;
+}
+.card-footer {
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 0 solid rgba(0, 0, 0, 0.125);
+}
+.col-11 {
+    display: inline-flex;
+}
+.bg-maroon,
+.bg-maroon > a {
+    color: #fff !important;
+}
+.bg-maroon {
+    background-color: #d81b60 !important;
+}
+.float-right {
+    float: right !important;
+}
+.btn {
+    border-radius: 10px !important;
+    color: white !important;
+}
+.fa {
+    padding: 0 0 0 10px;
+}
+.judul {
+    color: black;
+}
+.judul:hover {
+    color: #5e5e5e;
+}
+h5 {
+    margin-top: 2px !important;
+    margin-bottom: 0 !important;
+}
+h6 {
+    margin-top: 4px !important;
+    margin-bottom: 0 !important;
+}
+.d-flex {
+    padding: 0 !important;
+}
+.edt {
+    margin: 0 10px;
+    background-color: #0087ff !important;
+    color: white !important;
+    outline: none !important;
+}
+.edt:hover {
+    outline: none;
+    color: white !important;
+}
+.edt:focus {
+    outline: none;
+}
+.edtknn {
+    margin: 0 5px;
+}
+.btn2 {
+    margin: 3.5px 0;
+    color: white !important;
+    border-radius: 5px;
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.edit {
+    position: relative;
+    display: inline-block;
+}
+
+.edit .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -40px;
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+.edit .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}
+.edit:hover .tooltiptext {
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.53);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.53);
+    visibility: visible;
+    opacity: 1;
+}
+.add {
+    position: relative;
+    display: inline-block;
+}
+
+.add .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: -30%;
+    margin-left: -40px;
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+.add .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 75%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}
+.add:hover .tooltiptext {
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.53);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.53);
+    visibility: visible;
+    opacity: 1;
+}
+.col-2 {
+    display: inline-flex;
+    margin-left: auto;
+}
+
+/* POP UP */
+
+/* Full-width input fields */
+.mtr {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Add a background color when the inputs get focus */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+label {
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.375em;
+    /* Accessible outline */
+    /* Remove comment to use */
+    /* &:focus-within {
+    outline: .125em solid $primary-color;
+ }
+  */
+}
+label input {
+    position: absolute;
+    left: -9999px;
+}
+label input:checked + span {
+    background-color: #cccccc;
+}
+label input:checked + span:before {
+    box-shadow: inset 0 0 0 0.4375em #000000;
+}
+label span {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 0.5rem;
+    transition: 0.25s ease;
+}
+label span:hover {
+    background-color: #cccccc;
+}
+label span:before {
+    display: flex;
+    flex-shrink: 0;
+    content: "";
+    background-color: #ffffff;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    margin-right: 0.375em;
+    transition: 0.25s ease;
+    box-shadow: inset 0 0 0 0.125em #000000;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+    margin: 0 10px 0 0;
+    color: white;
+    display: block;
+    width: 20% !important;
+    border-radius: 10px 0 10px 0;
+    border: 0;
+    outline: 0 !important;
+    padding: 14px 20px;
+    background-color: #d81b60;
+}
+.sbmbtn {
+    margin: 0 10px 0 0;
+    color: white;
+    display: block;
+    width: 20% !important;
+    border-radius: 10px 0 10px 0;
+    border: 0;
+    outline: 0 !important;
+    padding: 14px 20px;
+    background-color: #0087ff;
+}
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+label {
+    display: block !important;
+}
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+    color: black;
+}
+h1 {
+    font-weight: 700 !important;
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+.form-group {
+    margin: 5px 0;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: overlay !important; /* Enable scroll if needed */
+    background-color: rgb(0 0 0 / 91%);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    padding: 15px;
+    background-color: #fefefe;
+    margin: 5.5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    border-radius: 0.5rem !important;
+    width: 70% !important; /* Could be more or less, depending on screen size */
+}
+.mdl-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fefefe;
+    margin: 5.5% auto 15% auto;
+    border: 1px solid #888;
+    width: 50% !important;
+    border-radius: 0.5rem !important;
+}
+/* Style the horizontal ruler */
+hr {
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+/* Delete Button */
+.dltbtn {
+    width: 100%;
+    text-align: left;
+}
+.dltbtn:hover {
+    width: 100%;
+    transition: 0.5s;
+    background-color: #e1e1e1 !important;
+}
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 1%;
+    top: -1%;
+    font-size: 40px;
+    color: #d9d9d9;
+    z-index: 1;
+}
+
+.close:hover,
+.close:focus {
+    color: #000000;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-lg-8 h2 {
+    margin-top: 10px;
+}
+@media screen and (max-width: 1200px) {
+    .col-lg-4 {
+        width: 35%;
+    }
+    .col-lg-8 {
+        width: 65% !important;
+    }
+    h6 {
+        font-size: 11px !important;
+    }
+    .card-header h1 {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .card-body p {
+        font-size: 12px;
+    }
+    .card-body li {
+        font-size: 12px;
+    }
+    .btn {
+        border-radius: 5px !important;
+        padding: 3px 6px !important;
+    }
+}
